@@ -1,0 +1,96 @@
+
+.click2callBtn {
+  text-decoration: none;
+  position: relative;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  width: 9em;
+  height: 3em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg, #0194d8, #32c12a, #4f8404, #189e95);
+  background-size: 300%;
+  border-radius: 40px;
+  z-index: 1;
+}
+
+.click2callBtn:hover {
+  animation: ani 10s linear infinite;
+  border: none;
+}
+
+@keyframes ani {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+.click2callBtn:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #7d9e18, #4f8404, #32c12a, #03f4a8);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+}
+
+.click2callBtn:hover::before {
+  filter: blur(20px);
+}
+
+.click2callBtn:active {
+  background: linear-gradient(32deg, #ceea31, #46f4f4, #81e833, #03a9f4);
+}
+
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  background: #0b8a51;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  transition: opacity 0.3s, visibility 0.3s, top 0.3s;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tooltip::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent #0b798a transparent;
+  transform: translateX(-50%);
+}
+
+.tooltip-container:hover .tooltip {
+  top: 120%;
+  opacity: 1;
+  visibility: visible;
+  background: #0e94a0;
+  transform: translate(-50%, -5px);
+}
