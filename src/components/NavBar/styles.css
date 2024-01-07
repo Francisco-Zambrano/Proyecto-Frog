@@ -5,5 +5,17 @@
     padding: 15px;
 }
 
+.nav-links {
+    color: #3e9641;
+    font-size: larger;
+    font-weight: 500;
+    
+}
+
+.nav-links:hover{
+    color: #29db32;
+    
+}
+
 
 
