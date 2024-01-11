@@ -67,7 +67,7 @@ const Form = () => {
           <textarea  required="" rows="5" id="textarea" name="textarea"></textarea>
                       
         <div className='signin'>
-            <input className='form-check' id="numbers" type="checkbox"/>
+            <input className='form-check' type="checkbox"/>
             <label htmlFor="numbers">
               Certifico que soy empresa (Anura no brinda servicios a personas individuales u hogares) 
             </label>

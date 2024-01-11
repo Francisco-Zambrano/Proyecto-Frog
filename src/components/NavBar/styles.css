@@ -9,13 +9,17 @@
     color: #3e9641;
     font-size: larger;
     font-weight: 500;
+    margin-right: 20px;
     
 }
 
-.nav-links:hover{
-    color: #29db32;
+.nav-links:hover {
+    color:rgb(49, 212, 34)
     
 }
+
+
+
 
 
 
