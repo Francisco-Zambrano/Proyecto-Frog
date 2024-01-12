@@ -5,9 +5,9 @@ const Form = () => {
     <>
     <form className="form">
         <p className="form-name">Contáctanos </p>
-        <p className="message">
+        {/* <p className="message">
           Completá el siguiente formulario con tus datos y a la brevedad un representante se pondrá en contacto.
-        </p>
+        </p> */}
         <div className="flex">
             <label>
                 <input required="" placeholder="" type="text" className="input"/>

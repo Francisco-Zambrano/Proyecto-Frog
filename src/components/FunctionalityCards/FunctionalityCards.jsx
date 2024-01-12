@@ -1,7 +1,5 @@
 import './styles.css'
 
-import React from 'react'
-
 const FunctionalityCards = () => {
 
     const cardsData = [

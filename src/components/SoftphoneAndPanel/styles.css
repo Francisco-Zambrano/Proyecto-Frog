@@ -1,0 +1,8 @@
+.webphone-container {
+    padding-top: 100px;
+}
+
+.webphone-img {
+    overflow: auto;
+    max-width: 1000px;  
+}

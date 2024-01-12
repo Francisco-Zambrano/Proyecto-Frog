@@ -1,0 +1,36 @@
+.main-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+    overflow: hidden;
+   
+}
+
+.main-logo {
+    max-width: 200px;
+    height: auto;
+    overflow: auto;
+    /* animation: updown 3s linear infinite; */
+}
+
+.main-title {
+    font-size: 3em;
+    color: #4f8404;
+    font-weight: 800;
+}
+
+
+
+/* @keyframes updown {
+      0% {
+          transform: translateY(-20px);
+      }
+      50% {
+          transform: translateY(20px);
+      }
+      100% {
+          transform: translateY(-20px);
+      }
+  } */
